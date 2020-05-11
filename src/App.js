@@ -1,11 +1,25 @@
 import React from 'react';
-
 import './App.css';
+import './css/style.css';
+import './css/reset.css';
+import './images/my-pic.JPG';
 
 function App() {
   return (
-    <div className="App">
-       <header id="mainhead">
+    <div>
+        <head />
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+            <title>About</title>
+            <link rel="stylesheet" href="./css/style.css" />
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" />
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" />
+        
+
+    
+    <header id="mainhead">
         <div className="container">
             <a href="index.html" id="logo">Shavkat Metekov</a>
             <nav>
@@ -16,16 +30,15 @@ function App() {
         </div>
     </header>
 
-  
-    <div id="main-content" className="container">
-        <section className="main-section" />
-    
+        <div id="main-content" className="container">
+            <section className="main-section" />
             <h2>About Me</h2>
             <div className="my-picture">
-                <img src="assets/images/my-pic.JPG" alt="Shavkat Metekov"> </img> 
+                <img src="./images/my-pic.JPG" alt="Shavkat Metekov" />
             </div>
-            <div className="text-paragraph">
-                <p/>         
+        </div>
+        <div className="text-paragraph">
+            <p>         
                     I am from Turkmenistan, Central Asia. 
                     Two years ago graduated Metropolitan State University with BAS in Computer Forensics. I like troubleshooting computer issues so I enjoy my work for the most part
                     I also love nature and looking for bugs. That is why I decided I will work with code and possibly get into developing positions at my work. If you are curious, 
@@ -46,12 +59,14 @@ function App() {
                     in security breaches (to some extend I still am), but then I double majored in Network Security that got me into CCNA and Network Admin roles,
                     Then I was put into support because I was eager to solve problems that puzzled developers as well as daily users. Now, my curiosity is taking
                     me into exploring programming and designing web pages as well as web applications. I am eager to learn more!
-                 
-    </div>
-   </div>
-   </div>
     
+            </p>
+
+        </div>
+            
+            
+    </div>
     );
-    }
-  
+  }
+
 export default App;
