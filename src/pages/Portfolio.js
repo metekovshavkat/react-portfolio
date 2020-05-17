@@ -11,13 +11,13 @@ class Portfolio extends React.Component {
             <h2>Portfolio</h2>
             {/* <!-- Pictures --> */}
             <div class="my-picture">
-            <a href="https://github.com/metekovshavkat"><img src="./assets/images/github-logo.png" /></a>
+            <img src="./assets/images/github-logo.png" />
         
             </div>
             <div class="text-paragraph">
                     <p>         
-                    Please connect with me on <a href ="https://www.linkedin.com/in/shavkatmetekov/">LinkedIn</a> 
-                    as well as follow on <a href="https://github.com/metekovshavkat">GitHub</a> where you can see 
+                    Please connect with me on <a href ="https://www.linkedin.com/in/shavkatmetekov/">LinkedIn</a> as 
+                    well as follow on <a href="https://github.com/metekovshavkat">GitHub</a> where you can see 
                     my coding projects and repositories. My skills include but not limited to CSS, java script, 
                     node.js, jQuery, APIs, Ajax, ES6+, Express, SQL, ORM, CRUD, MongoDB, Mongoose, and more.
                     <br /> <br />
